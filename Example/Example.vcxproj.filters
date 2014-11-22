@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxImageBrowser\src\ofxImageBrowser.cpp">
+			<Filter>addons\ofxImageBrowser\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxImageBrowser\src\ofxThreadedImageLoader_.cpp">
+			<Filter>addons\ofxImageBrowser\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxImageBrowser\src\ofxUtils.cpp">
+			<Filter>addons\ofxImageBrowser\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImageBrowser">
+			<UniqueIdentifier>{52F3533B-AE43-3278-E8B3-F8D3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImageBrowser\src">
+			<UniqueIdentifier>{6A78EF69-0EE8-D91E-F52D-A6B3}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxImageBrowser\src\ofxImageBrowser.h">
+			<Filter>addons\ofxImageBrowser\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxImageBrowser\src\ofxThreadedImageLoader_.h">
+			<Filter>addons\ofxImageBrowser\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxImageBrowser\src\ofxUtils.h">
+			<Filter>addons\ofxImageBrowser\src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
